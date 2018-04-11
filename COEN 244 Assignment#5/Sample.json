@@ -5,12 +5,12 @@
                 "batters": {
                     "batter": [
                         {
-                            "id": "1001",
-                            "type": "Regular"
+							"id": "1002",
+							"type": "Chocolate"
                         },
                         {
-                            "id": "1002",
-                            "type": "Chocolate"
+                            "id": "1000",
+                            "type": "Regular"
                         },
                         {
                             "id": "1003",
@@ -72,7 +72,7 @@
                         }
                     ]
                 },
-                "id": 101,
+                "id": 99,
                 "name": "donut",
                 "ppu": 0.25,
                 "toppings": {
@@ -82,17 +82,68 @@
                             "type": "None"
                         },
                         {
+                            "id": "5005",
+                            "type": "Glazed"
+                        },
+                        {
+                            "id": "5004",
+                            "type": "Sugar"
+                        }
+                    ]
+                },
+                "type": "cookies"
+            },
+			{
+                "batters": {
+                    "batter": [
+                        {
+                            "id": "1001",
+                            "type": "Regular"
+                        },
+						{
                             "id": "5002",
                             "type": "Glazed"
                         },
                         {
                             "id": "5005",
                             "type": "Sugar"
+                        },
+                        {
+                            "id": "1008",
+                            "type": "Chocolate"
                         }
                     ]
                 },
-                "type": "cookies"
+                "id": 109,
+                "name": "churros",
+                "ppu": 1.00,
+                "toppings": {
+                    "topping": [
+                        {
+                            "id": "5001",
+                            "type": "None"
+                        },
+                        {
+                            "id": "5005",
+                            "type": "Glazed"
+                        },
+						{
+                            "id": "5007",
+                            "type": "Powdered Sugar"
+                        },
+                        {
+                            "id": "5006",
+                            "type": "Chocolate with Sprinkles"
+                        },
+                        {
+                            "id": "5004",
+                            "type": "Sugar"
+                        }
+                    ]
+                },
+                "type": "dessert"
             }
+			
         ]
     }
 }

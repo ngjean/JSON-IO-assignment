@@ -1,0 +1,56 @@
+id      name      ppu       type      batter#      batter       topping#     topping   
+
+99      donut     0.25      cookies   1001         Regular       5001        None      
+99      donut     0.25      cookies   1001         Regular       5005        Glazed    
+99      donut     0.25      cookies   1001         Regular       5004        Sugar     
+99      donut     0.25      cookies   1008         Chocolate     5001        None      
+99      donut     0.25      cookies   1008         Chocolate     5005        Glazed    
+99      donut     0.25      cookies   1008         Chocolate     5004        Sugar     
+109     churros   1         dessert   1001         Regular       5001        None      
+109     churros   1         dessert   1001         Regular       5005        Glazed    
+109     churros   1         dessert   1001         Regular       5007        Powdered Sugar
+109     churros   1         dessert   1001         Regular       5006        Chocolate with Sprinkles
+109     churros   1         dessert   1001         Regular       5004        Sugar     
+109     churros   1         dessert   5002         Glazed        5001        None      
+109     churros   1         dessert   5002         Glazed        5005        Glazed    
+109     churros   1         dessert   5002         Glazed        5007        Powdered Sugar
+109     churros   1         dessert   5002         Glazed        5006        Chocolate with Sprinkles
+109     churros   1         dessert   5002         Glazed        5004        Sugar     
+109     churros   1         dessert   5005         Sugar         5001        None      
+109     churros   1         dessert   5005         Sugar         5005        Glazed    
+109     churros   1         dessert   5005         Sugar         5007        Powdered Sugar
+109     churros   1         dessert   5005         Sugar         5006        Chocolate with Sprinkles
+109     churros   1         dessert   5005         Sugar         5004        Sugar     
+109     churros   1         dessert   1008         Chocolate     5001        None      
+109     churros   1         dessert   1008         Chocolate     5005        Glazed    
+109     churros   1         dessert   1008         Chocolate     5007        Powdered Sugar
+109     churros   1         dessert   1008         Chocolate     5006        Chocolate with Sprinkles
+109     churros   1         dessert   1008         Chocolate     5004        Sugar     
+100     Cake      0.55      donut     1002         Chocolate     5001        None      
+100     Cake      0.55      donut     1002         Chocolate     5002        Glazed    
+100     Cake      0.55      donut     1002         Chocolate     5005        Sugar     
+100     Cake      0.55      donut     1002         Chocolate     5007        Powdered Sugar
+100     Cake      0.55      donut     1002         Chocolate     5006        Chocolate with Sprinkles
+100     Cake      0.55      donut     1002         Chocolate     5003        Chocolate 
+100     Cake      0.55      donut     1002         Chocolate     5004        Maple     
+100     Cake      0.55      donut     1000         Regular       5001        None      
+100     Cake      0.55      donut     1000         Regular       5002        Glazed    
+100     Cake      0.55      donut     1000         Regular       5005        Sugar     
+100     Cake      0.55      donut     1000         Regular       5007        Powdered Sugar
+100     Cake      0.55      donut     1000         Regular       5006        Chocolate with Sprinkles
+100     Cake      0.55      donut     1000         Regular       5003        Chocolate 
+100     Cake      0.55      donut     1000         Regular       5004        Maple     
+100     Cake      0.55      donut     1003         Blueberry     5001        None      
+100     Cake      0.55      donut     1003         Blueberry     5002        Glazed    
+100     Cake      0.55      donut     1003         Blueberry     5005        Sugar     
+100     Cake      0.55      donut     1003         Blueberry     5007        Powdered Sugar
+100     Cake      0.55      donut     1003         Blueberry     5006        Chocolate with Sprinkles
+100     Cake      0.55      donut     1003         Blueberry     5003        Chocolate 
+100     Cake      0.55      donut     1003         Blueberry     5004        Maple     
+100     Cake      0.55      donut     1004         Devil's Food  5001        None      
+100     Cake      0.55      donut     1004         Devil's Food  5002        Glazed    
+100     Cake      0.55      donut     1004         Devil's Food  5005        Sugar     
+100     Cake      0.55      donut     1004         Devil's Food  5007        Powdered Sugar
+100     Cake      0.55      donut     1004         Devil's Food  5006        Chocolate with Sprinkles
+100     Cake      0.55      donut     1004         Devil's Food  5003        Chocolate 
+100     Cake      0.55      donut     1004         Devil's Food  5004        Maple     
