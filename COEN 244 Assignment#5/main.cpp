@@ -207,14 +207,14 @@ void sortNBatter(vector<items> &i)
     }
 }
 
-int main()
+int main(int argc, char* argv[])
 {
     json j;
     std::vector<items> item;
 
     std::ifstream infile;//input from the file
     {
-        infile.open("Sample.json");
+        infile.open(argv[3]);
         if(infile.fail())
         {
             std::cout<<"file not found"<<std::endl;
@@ -228,19 +228,53 @@ int main()
 
     from_json(item,j);
 
-    sortID(item);
-    display(item);
-    sortName(item);
-    cout<<endl;
-    display(item);
-    sortType(item);
-    cout<<endl;
-    display(item);
-
+    if(argv[2] == string("id"))
+    {
+        sortID(item);
+    }
+    else
+    {
+        if(argv[2] == string("ppu"))
+        {
+            sortPpu(item);
+        }
+        else
+        {
+            if(argv[2] == string("name"))
+            {
+                sortName(item);
+            }
+            else
+            {
+                if(argv[2] == string("type"))
+                {
+                    sortType(item);
+                }
+                else
+                {
+                    if(argv[2] == string("batterId"))
+                    {
+                        sortIBatter(item);
+                    }
+                    else
+                    {
+                        if(argv[2] == string("batterName"))
+                        {
+                            sortNBatter(item);
+                        }
+                        else
+                        {
+                            cout<<"FIELD TO BE SORTED NOT FOUND"<<endl;
+                        }
+                    }
+                }
+            }
+        }
+    }
 
     std::ofstream outfile;//output to the file
     {
-        outfile.open("Table.txt");
+        outfile.open(argv[4]);
         if(outfile.fail())
         {
             std::cout<<"sorry file not found"<<std::endl;
